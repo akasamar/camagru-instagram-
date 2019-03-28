@@ -1,0 +1,166 @@
+.photowrap
+{
+	border: 3px solid #c3c7e2;
+	height: 630px;
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: #e9edf5;
+}
+
+#foruserinfo
+{
+	height: 70px;
+	border: 1px solid #a7adff;
+	background-color: #c0bbd8;
+	position: relative;
+}
+
+a.href, a:visited.href, a:active.href {
+    color: black;
+}
+
+a.href:hover, a:visited.href:hover, a:active.href:hover {
+    color: #0b7068;
+}
+
+#avatar
+{
+	height: 60px;
+	width: 80px;
+	border: 1px solid black;
+	background-size: 100% 100%;
+	border-radius: 100%;
+	margin: 5px 0 5px 5px;
+	display: inline-block;
+
+}
+
+h1
+{
+	display: inline-block;
+	font-size: 27px;
+	position: absolute;
+	margin-left: 20px;
+}
+
+p
+{
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    top: -15px;
+}
+
+#photo
+{
+	height: 380px;
+	margin: 10px auto;
+	width:650px;
+	border: 1px solid #9b9cec;
+	background-size: 100% 100%;
+}
+
+#likewrapper
+{
+	width: 650px;
+	margin: 5px auto;
+}
+
+.like
+{		
+	width: 20px;
+	height: 20px;
+	background-image: url("/templates/img/heartoff.png");
+	background-size: 100% 100%;
+	display: inline-block;
+}
+
+.numlikes
+{
+	height: 20px;
+	display: inline-block;
+}
+
+.delete
+{
+	height: 20px;
+	float: right;
+	display: inline-block;
+	outline: none;
+}
+
+#comment
+{
+	width: 650px;
+	height: 90px;
+	border: 1px solid black;
+	overflow: auto;
+	margin: 0 auto;
+	padding-bottom: 1px;
+	background-color: #fff5f7;
+	position: relative;
+}
+
+.input_text
+{
+    width: 568px;
+    height: 20px;
+    font-size: 23px;
+    outline: none;
+    display: inline-block;
+    margin: 4px 0 0 72px;
+    border: 1px solid #939393;
+}
+
+.submit_send, .delete
+{
+    width: 77px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: top;
+    outline: none;
+    margin-top: 4px;
+    background-color: #bbc4da;
+    border-radius: 8px;
+}
+
+.delete
+{
+	margin-top: 0;
+	width: 88px;
+	background-color: #ff494980;
+}
+
+.pagination
+{
+	width: 200px;
+	height: 40px;
+	background-color: #ccd6ff;
+	margin: 5px auto;
+	border-radius: 3px 3px 20px 20px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.page-but
+{
+	font-size: 30px;
+	outline: none;
+	background-color: #f2f1f1;
+}
+
+.page-but:hover
+{
+	cursor: pointer;
+}
+
+#left, #middle, #right
+{
+	display: inline-block;
+}
+
+#middle
+{
+	background-color: #ff494980;
+}

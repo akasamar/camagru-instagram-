@@ -1,0 +1,235 @@
+/*http://shpargalkablog.ru/2011/06/css-box-shadow.html*/
+
+button
+{
+    background-color: #b2b1d4;
+}
+
+button:hover
+{
+    background-color: #8684d4;
+    cursor: pointer;
+}
+
+.forgot-but:hover
+{
+    background-color: #f7f7f7;
+}
+
+a
+{
+    margin-top: 5px;
+}
+
+.content-head
+{
+    width: 750px;
+    height: 60px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 5vh;
+    background-color: #92a1ce;
+    border-radius: 25px 25px 0 0;
+    font-family: Bradley Hand, cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+.log_in
+{
+    margin: 0 auto;
+    padding: 2px;
+    border-radius: 3px;
+    width: 750px;
+    background-color: #e9edf5;
+}
+
+.pic-iphone
+ {
+ 	background-image: url("../img/iphone.png");
+ 	background-size: 100% 100%;
+ 	width: 320px;
+ 	height: 550px;
+ 	display: inline-block;
+ 	position: relative;
+ }
+
+ .img-white, .img3,  .img2,  .img1
+ {
+    position: absolute;
+    width: 209px;
+    height: 365px;
+    border: 2px solid black;
+    top: 89px;
+    left: 53px;
+ }
+
+.img-white
+{
+    background-color: white;
+}
+
+ .img3
+ {
+    background-image: url("../img/333.jpeg");
+    background-size: 100% 100%;
+    opacity: 0;
+ }
+
+  .img2
+ {
+    background-image: url("../img/222.png");
+    background-size: 100% 100%;
+    opacity: 0;
+ }
+
+  .img1
+ {
+
+    background-image: url("../img/111.jpg");
+    background-size: 100% 100%;
+    opacity: 1;
+ }
+
+
+ .sign_in
+ {
+ 	display: inline-block;
+ 	width: 320px;
+ 	height: 310px;
+ 	vertical-align: top;
+ 	margin: 100px 0 0 50px;
+ 	background-color: #f7f7f7;
+ 	border-radius: 10%;
+ 	box-shadow: 0 0 0px 1px #4b4b4d;
+    position: relative;
+ }
+
+
+.input-login, .recover-pass, .recover-input-login
+{
+	width: 206px;
+	height: 90px;
+ 	margin: 55px 0 0 57px;
+ 	text-align: center; 
+    display: block;
+}
+
+.recover-pass, .recover-input-login
+{
+    display: none;
+}
+
+.paragraph
+{
+	font-family: Gill Sans, sans-serif;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+ .login, .pass, .recover-login, .newpass1, .newpass2
+ {
+ 	width: 200px;
+ 	height: 30px;
+ 	outline: none;
+    background-color: #e5f0ff;
+ }
+
+
+
+.button2, .button-send-mail, .button-send-mail-back, .button-chg-pass, .cancel-chg-pass
+{
+    margin-top: 20px;
+    border: 1px solid black;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+    width: 206px;
+    border-radius: 5px;
+}
+
+/*.button2:focus, .button3:focus, .button4:focus, .button-send-mail:hover, .button-send-mail-back:hover, .button-chg-pass:hover
+{
+    background-color: #6a6fa7;
+    transition: all 0.5s;
+}*/
+
+.button3, .button4
+{
+    margin-top: 5px;
+    border: 1px solid black;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+    width: 206px;
+    border-radius: 5px;
+}
+
+.error
+{
+    /*top: 0px;*/
+/*    left: 67px;
+    position: absolute;
+    font-size: 13px;*/
+    color: red;
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+}
+
+.register
+{
+    width: 206px;
+    height: 90px;
+    margin: 17px 0 0 57px;
+    text-align: center; 
+    display: none;
+ /* border: 1px solid red;*/
+}
+
+
+
+ .pass1, .pass12, .mail1, .login1, .name1
+ {
+    margin-top: 5px;
+    width: 200px;
+    height: 30px;
+    outline: none;
+    padding-left: 5px;
+ }
+
+
+.button_reg, .button_back
+{
+    margin-top: 20px;
+    border: 1px solid black;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+    width: 206px;
+    border-radius: 5px;
+}
+
+.button_reg:focus
+{
+    background-color: #e4e4f2;
+    transition: all 0.5s;
+}
+
+.forgot-but
+{
+    margin: 15px;
+    outline: none;
+    background-color: #f7f7f7;
+    color: #46c5dc;
+    border: none;
+}
+
+.forgot-but:hover
+{
+    font-size: 13px;
+    cursor: pointer;
+}

@@ -1,0 +1,103 @@
+button
+{
+	background-color: #6a6fa7;
+    width: 190px;
+    height: 40px;
+    border-radius: 18px;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+
+hr
+{
+	margin-top: 30px;
+	border: 1px solid grey;
+}
+
+h2
+{
+	text-align: center;
+}
+
+#kek
+{
+	background-color: #b3ffd8c4;
+	margin-bottom: 3px;
+}
+
+#vid, #loading
+{
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 790px;
+	position: relative;
+	overflow: hidden;
+}
+
+#loading
+{
+	height: 480px;
+	background-image: url("/templates/img/load.gif");
+	background-size: 100% 100%;
+}
+
+#vid-pic
+{
+	vertical-align: top;
+	display: none;
+	width: 146px;
+	height: 478px;
+	border: 1px solid black;
+	overflow: auto;
+}
+
+#uploadedphoto
+{
+	width: 640px;
+	height: 478px;
+	border: 1px solid black;
+	display: none;
+}
+
+#can
+{
+	width: 640px;
+	height: 480px;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: none;
+	border: 1px solid black;
+}
+
+.for_buttons
+{
+	width: 790px;
+	margin: 0 auto;
+}
+
+#album
+{
+	width: 790px;
+	border: 1px solid #88656547;
+	border-top: 0;
+	border-bottom: 0;
+	min-height: 200px;
+	position: relative;
+}
+
+
+.photo
+{
+	width: 150px;
+	height: 150px;
+	background-size: 100% 100%;
+	display: inline-block;
+	margin: 0 21px 10px 21px;
+	border: 1px solid #7575d0;
+}
+
+#butsetava, #butdel
+{
+	display: none;
+}

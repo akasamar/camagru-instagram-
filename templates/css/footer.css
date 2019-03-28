@@ -1,0 +1,11 @@
+.footer
+{
+    width: 750px;
+    height: 20px;
+    margin: 15px auto;
+    border-radius: 0 0 50px 50px;
+    background-color: #92a1ce;
+    font-family: Bradley Hand, cursive;
+    text-align: center;
+    padding: 10px;
+}
